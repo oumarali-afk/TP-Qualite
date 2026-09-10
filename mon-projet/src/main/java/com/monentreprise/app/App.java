@@ -10,4 +10,9 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+
+    public static int sub(int a, int b) {
+        int result = a - b;
+        return result;
+    }
 }
